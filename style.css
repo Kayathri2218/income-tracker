@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background: rgb(4, 252, 107);
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+body {
+    background: #57a8c02a;
+    font-weight: 600;
+    color: rgba(63, 61, 61, 0.808);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row {
+    width: 40%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.card1-total {
+    padding: 20px;
+}
+
+.card1-total p {
+    padding: 5px 0;
+}
+
+.card2-inout {
+    display: flex;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #faf9f9;
+    border-radius: 10px;
+}
+
+.card2-inout p {
+    padding: 5px 0;
+}
+
+.box1-plus {
+    width: 50%;
+    border-right: 1px solid #000;
+    padding: 10px;
+}
+
+.box2-min {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.card3-history {
+    padding: 15px 0;
+}
+
+.card4-transaction p {
+    padding: 10px 0;
+}
+
+.card4-transaction input,
+label {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 15px;
+}
+
+#trans {
+    padding: 10px 15px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.out {
+    width: 100%;
+}
+
+.out input {
+    border-radius: 10px;
+    border: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.btn-submit {
+    padding: 12px 15px;
+    border: none;
+    color: #fff;
+    background: rgb(5, 42, 252);
+}
+
+button {
+    width: 50%;
+}
+
+@media(min-width:320px) {
+    .card2-inout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1-plus {
+        width: 100%;
+    }
+
+    .box2-min {
+        width: 100%;
+    }
+
+    .box1-plus {
+        border-right: none;
+    }
+
+    .btn .btn-submit {
+        width: 100%;
+    }
+}
+
+@media(min-width:690px) {
+    .card2-inout {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1-plus {
+        width: 50%;
+    }
+
+    .box2-min {
+        width: 50%;
+    }
+
+    .box1-plus {
+        border-right: 1px solid #000;
+    }
+
+    .btn .btn-submit {
+        width: 50%;
+    }
+}
+
+@media(min-width:1024px) {
+    .card2-inout {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1-plus {
+        width: 50%;
+    }
+
+    .box2-min {
+        width: 50%;
+    }
+
+    .box1-plus {
+        border-right: 1px solid #000;
+    }
+
+    .btn .btn-submit {
+        width: 50%;
+    }
+}

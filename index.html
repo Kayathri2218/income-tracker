@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="head">
+            Income Tracker
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card1-total">
+                    <p>YOUR BALANCE</p>
+                    <p id="total">$0.00</p>
+                </div>
+                <div class="card2-inout">
+                    <div class="box1-plus">
+                        <P>INCOME</P>
+                        <P id="income">$0.00</P>
+                    </div>
+                    <div class="box2-min">
+                        <p>EXPENSE</p>
+                        <P id="expense">$0.00</P>
+                    </div>
+                </div>
+                <div class="card3-history">
+                    <p>History</p>
+                    <div>
+                        <ol id="show-his"></ol>
+                    </div>
+                </div>
+                <div class="card4-transaction">
+                    <p>Add new transaction</p>
+                    <form id="trans">
+                        <div class="inputs">
+                            <div class="out">
+                                <label for="name">Name</label>
+                                <input type="text" id="list" placeholder="Enter Names Transaction">
+                            </div>
+                            <div class="out">
+                                <label for="amount">Amount</label>
+                                <input type="number" id="list-amount" placeholder="Enter Amount">
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button id="submit" class="btn-submit">Add History</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main2.js"></script>
+</body>
+
+</html
